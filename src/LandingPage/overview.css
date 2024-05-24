@@ -1,0 +1,50 @@
+.overview-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-item {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  /* Stack image and text vertically */
+  align-items: center;
+  /* Horizontally center the content */
+  text-align: center;
+  gap: 100px;
+}
+
+.even .content {
+  flex-direction: row-reverse;
+  /* Reverse the direction for even items */
+}
+
+.text {
+  margin-top: 20px;
+  /* text-align: ; */
+  color: white;
+  /* margin-left: 0px; */
+  /* Add padding to the text */
+}
+
+.text h2 {
+  font-size: 24px;
+  padding-right: 90px;
+  text-align: left;
+
+}
+
+
+
+.text p {
+  font-size: 16px;
+}
+
+.overview-img {
+  width: 100%;
+}

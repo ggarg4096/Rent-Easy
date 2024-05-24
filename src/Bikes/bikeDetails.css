@@ -1,0 +1,68 @@
+.bike-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.bike-image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.booking-details-container {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.booking-details-container p {
+  font-size: 3vh;
+}
+
+.bike-detail img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.bike-detail h3 {
+  margin-top: 20px;
+  color: white;
+}
+
+.bike-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bike-detail li {
+  margin-bottom: 5px;
+}
+
+.bike-detail p {
+  color: white;
+}
+
+.bike-detail label {
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+
+.bike-detail input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.bike-detail div {
+  margin-top: 20px;
+}
+
+.general-info {
+  flex: 1;
+}
+.user-general-info {
+  margin-top: 20px;
+  height: 600px;
+}

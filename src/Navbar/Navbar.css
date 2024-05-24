@@ -1,0 +1,58 @@
+.jersey-15-regular {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.navbar {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 20px;
+  margin-bottom: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 98%;
+  border-bottom: 1px solid white;
+
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left .navbar-logo {
+  width: 130px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-button {
+  width: auto;
+  font-family: 'Jersey 15';
+  font-size: 20px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.navbar-button:hover{
+  /* background-color: green; */
+  border-radius: 2px solid white;
+}

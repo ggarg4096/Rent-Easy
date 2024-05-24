@@ -1,0 +1,63 @@
+.landing-page {
+  display: flex;
+  width: 100%;
+  min-height: 60vh;
+  padding-bottom: 20px;
+}
+
+.landing-page-text {
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  overflow-y: auto;
+}
+
+.landing-page-text h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.landing-page-text p {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 70%;
+  max-width: 200px;
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.image-gallery img:hover {
+  opacity: 0.8;
+}
+
+.landing-page-image {
+  background-color: black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page-image img {
+  max-height: 50vh;
+}
+
+.porchelogo {
+  padding-top: 40px;
+}

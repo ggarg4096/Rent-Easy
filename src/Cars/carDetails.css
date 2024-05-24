@@ -1,0 +1,158 @@
+.car-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.car-image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.booking-details-container {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.booking-details-container p {
+  font-size: 3vh;
+}
+
+.car-detail img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.car-detail h3 {
+  margin-top: 20px;
+  color: white;
+}
+
+.car-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.car-detail li {
+  margin-bottom: 5px;
+}
+
+.car-detail p {
+  color: white;
+}
+
+.car-detail label {
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+
+.car-detail input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.car-detail div {
+  margin-top: 20px;
+}
+
+.general-info {
+  flex: 1;
+}
+
+.general-info h2 {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+}
+
+.table-container {
+  width: 100%;
+  color: white;
+}
+
+.custom-table {
+  width: 95%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 15px;
+  font-size: 20px;
+  border-bottom: 2px dotted #ddd;
+}
+
+.custom-table th {
+  background-color: black;
+}
+
+.user-general-info {
+  width: 67%;
+  height: 490px;
+}
+
+.user-info-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.user-info-header th {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  border: 1px solid #ddd;
+  font-size: 26px;
+}
+.user-info-table th,
+.user-info-table td {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #ddd;
+}
+
+.user-info-body td:first-child {
+  width: 20%;
+  color: white;
+}
+
+.user-info-body td:nth-child(2) {
+  line-height: 1.5;
+  color: white;
+}
+.user-general-info {
+  margin-top: 20px;
+  height: 600px;
+}
+
+
+.date-input {
+  width: 29%; /* Adjust the width as needed */
+  margin-right: 20px;
+  background: #93e3a8;
+  font-size: 18px;
+  padding: 10px;
+  height: 40px; /* Increased height for better visibility */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Optional: Style for the second date input */
+.date-input-end {
+  width: 29%; /* Adjust the width as needed */
+  background: #93e3a8;
+  font-size: 18px;
+  padding: 10px;
+  height: 40px; /* Increased height for better visibility */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+/* 
+.startDate{
+  width: 100px;
+} */
